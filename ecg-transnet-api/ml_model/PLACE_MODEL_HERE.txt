@@ -1,0 +1,6 @@
+Place your trained ECG-TransNet weights here:
+  - ecg_transnet.pt   (PyTorch)
+  - ecg_transnet.h5   (Keras/TF)
+  - ecg_transnet.onnx (ONNX)
+
+Update app/services/inference.py to load accordingly.

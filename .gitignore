@@ -1,0 +1,28 @@
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local installers / backups
+*.msi
+*.zip
+

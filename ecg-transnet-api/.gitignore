@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+*.pt
+!ml_model/ecg_transnet.pt
+*.h5
+*.onnx
+venv/
+.venv/
+dist/
+*.egg-info/

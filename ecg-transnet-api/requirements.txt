@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+pydantic[email]==2.7.1
+numpy==1.26.4
+scipy==1.13.0
+torch==2.3.0
+motor==3.4.0          # MongoDB async (swap for asyncpg if using PostgreSQL)
+pymongo==4.6.3         # pinned: motor 3.4.0 breaks on pymongo 4.7+
+passlib[bcrypt]==1.7.4
+pyjwt==2.8.0
+python-dotenv==1.0.1
+reportlab==4.2.0      # PDF generation (Phase 2)
+shap==0.45.0          # XAI (Phase 2)
